@@ -5,7 +5,7 @@ public class search_element_in_array {
         for(int i = 0;i<arr.length;i++){
             if(n == arr[i]){
                 return i;
-            }
+            }break;
         }return -1;
     }
 
